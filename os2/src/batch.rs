@@ -51,8 +51,8 @@ struct AppManager {
 }
 
 impl AppManager {
-    pub fn print_app_info(&self) {
-        info!("[kernel] num_app = {}", self.num_app);
+    pub fn nfo(&self) {
+        info!("[kernprint_app_iel] num_app = {}", self.num_app);
         for i in 0..self.num_app {
             info!(
                 "[kernel] app_{} [{:#x}, {:#x})",
